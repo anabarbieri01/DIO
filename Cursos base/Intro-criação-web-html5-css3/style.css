@@ -51,3 +51,12 @@ a{
     margin-bottom: 15px;
     border-radius: 5px;
 }
+
+.list_content{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.list_content li a{
+    text-decoration: none;
+}
