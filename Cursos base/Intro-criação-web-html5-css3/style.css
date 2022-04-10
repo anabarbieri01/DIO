@@ -1,9 +1,10 @@
 body{
     background: rgb(218, 229, 241);
+    font-family: verdana;
 }
 
 .img_avatar{
-    width:10%;
+    width:15%;
     margin-bottom: 15px;
     border-radius: 50%;
     border: 1px solid rgb(37, 37, 37);
@@ -12,6 +13,16 @@ body{
 
 #title, .subtitle, .post_title{
     color:rgb(37, 37, 37);
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: underline;
+    color:rgb(37, 37, 37)
 }
 
 .post_title{
@@ -32,10 +43,11 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
-.photo_img{
-    width:10%;
+.post_img{
+    width:100%;
     margin-bottom: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
