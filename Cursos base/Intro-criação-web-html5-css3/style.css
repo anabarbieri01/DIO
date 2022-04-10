@@ -1,6 +1,8 @@
 body{
     background: rgb(218, 229, 241);
     font-family: verdana;
+    max-width:900px;
+    margin:auto;
 }
 
 .img_avatar{
@@ -44,6 +46,7 @@ a{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_img{
