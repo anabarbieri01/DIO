@@ -1,15 +1,18 @@
+body{
+    background-color: aquamarine;
+    font: 20px Arial, sans-serif;
+}
+
 .container-fluid{
     background-color: #298A08;
 
 }
- body{
-     background-color: aquamarine;
- }
 
 #quem-somos{
     background-color: #8181f7;
+    color: white;
 }
 
 .margin{
-    padding-top: 50px;
+    padding-bottom: 50px;
 }
