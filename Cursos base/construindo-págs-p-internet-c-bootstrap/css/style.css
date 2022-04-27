@@ -3,7 +3,13 @@ body{
     font: 20px Arial, sans-serif;
 }
 
-.container-fluid{
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+.container-fluid {
     background-color: #298A08;
 
 }
@@ -13,6 +19,13 @@ body{
     color: white;
 }
 
-.margin{
-    padding-bottom: 50px;
+
+#parceiros{
+    color: white;
+    background-color: #fd32d8;
 }
+
+.container-fluid-parceiros{
+    background-color: #fd32d8;
+}
+
