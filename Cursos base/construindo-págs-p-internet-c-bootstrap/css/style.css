@@ -29,3 +29,11 @@ body{
     background-color: #fd32d8;
 }
 
+.container-fluid-servicos{
+    background-color: rgb(252, 2, 73);
+}
+
+.bg-footer{
+    background-color: black;
+    color:white;
+}
