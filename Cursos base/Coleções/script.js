@@ -1,7 +1,7 @@
 function getAdmins(map) {
     let admins = [];
     for([key, value] of map){
-        if(value === 'User'){
+        if(value === 'User'){ //vai mostrar apenas Usuarios para mostrar Admins tem que trocar User por Admin.
             admins.push(key);
         }
     }
@@ -18,3 +18,8 @@ usuarios.set('Ana', 'Admin');
 usuarios.set('Claudia', 'User');
 
 console.log(getAdmins(usuarios));
+
+
+/* Para executar:
+colocar no terminal bash do VS Code -> node script.js
+*/
