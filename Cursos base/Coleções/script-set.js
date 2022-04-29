@@ -14,3 +14,6 @@ function valoresUnicos(arr){
 
 console.log(valoresUnicos(meuArray));
 
+/* Para executar:
+colocar no terminal bash do VS Code -> node script-set.js
+*/
